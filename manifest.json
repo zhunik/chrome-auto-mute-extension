@@ -1,0 +1,10 @@
+{
+    "name": "Mute Other Tabs",
+    "description": "Mute other audible tables if current tab is also audible",
+    "manifest_version": 3,
+    "version": "1.0",
+    "permissions": ["alarms"],
+    "background": {
+        "service_worker": "background.js"
+    }
+}
